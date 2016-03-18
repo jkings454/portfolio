@@ -1,0 +1,38 @@
+.sunset-background {
+	background: url("sunset1.jpg") no-repeat center center;
+}
+.blueprint-background {
+	background: url("blueprint.jpg") no-repeat center center;
+}
+.blocks-background {
+	background: url("blocks.jpg") no-repeat center center;
+}
+#inverse {
+	color: #fff;
+	text-shadow: 2px 2px #000;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  padding-bottom: 165px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 150px;
+  background-color: #f5f5f5;
+}
+.img-padding {
+  padding: 10px 5px 5px 10px;
+}
+.small-text {
+	font-size: 12px;
+}
+.well {
+	background-color: rgba(245, 245, 245, 0.2);
+}
